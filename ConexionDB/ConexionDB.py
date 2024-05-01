@@ -4,7 +4,7 @@ from PIL import Image, ImageTk, ImageDraw
 from datetime import datetime
 import pymysql
 
-
+#Clase funciona de forma independiente
 # Función para crear un círculo en la esquina superior derecha
 def create_circle_image(radius, color, border_color, border_width):
     size = (radius * 2, radius * 2)

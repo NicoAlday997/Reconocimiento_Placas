@@ -3,6 +3,7 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
+#Clase funciona de forma independiente
 
 class LectorPlacas:
     def __init__(self):
